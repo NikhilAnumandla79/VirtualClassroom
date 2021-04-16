@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:white;
+	text-align:center;
+	line-height:10vm;
+	font-family:"Roboto",sans-serif;
+}
+h1{
+	margin-top:12vw;
+	font-family:"Georgia",sans-serif;
+	font-size:8vw;
+	color:#6D7FCC;
+}
+p{
+	margin-top:2vw;
+	font-family:"Roboto",sans-serif;
+	color:#787878;
+	font-size:5vm;
+}
+button{
+	width:70%;
+	margin-top:2vw;
+	color:white;
+	background-color:#6D7FCC;
+	border-style:none;
+	padding:10px;
+	border-radius:6px;
+	font-size:1.5em;
+}
+button:hover{
+	color:#6D7FCC;
+	border:3px solid #6D7FCC;
+	background-color:white;
+	
+}

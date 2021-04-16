@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/let-started.css">
+<title>Lets Get Started..</title>
+</head>
+<body>
+    <div class="section">
+    	<h1>Register</h1>
+	<div class="form">
+		
+		<form action="register" method="post" onsubmit="return verify()">
+            <label for="fullname">FullName:</label><p id="fullnameId"></p><br>
+            <input type="text" name="fullname" id="fullname" placeholder="fullname" autofocus><br>
+            
+            <label for="username">Username:</label><p id="usernameId"></p><br>
+            <input type="text" name="username" id="username" placeholder="username"><br>
+            
+            <label for="pass">Password:</label><p id="passwordId"></p><br>
+            <input type="password" name="pass" id="pass" placeholder="password"><br>
+            
+            <label for="confirm-pass">Confirm Password:</label><p id="confirm-passId"></p><br>
+            <input type="password" name="confirm-pass" id="confirm-pass" placeholder="confirm password"><br>
+            
+            <label for="email">Email Id:</label><p id="email"></p><br>
+            <input type="email" name="email" id="email" placeholder="enter email"><br>
+          
+            <label for="profession">Choose your profession:</label>
+            <select id="profession" name="profession" class="dropdown">
+                <option value="no">Select</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+            </select> <p id="professionId"></p><br>
+            
+                <input type="submit" value="submit" id="button" ><br>
+                <input type="reset" value="reset" id="button"><br>
+            </form>
+	<br>
+<br>
+<a href="index.html">Go back</a>
+	</div>
+	
+	</div>
+	<script src="scripts/register.js" ></script>
+</body>
+</html>
